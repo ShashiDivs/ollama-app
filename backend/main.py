@@ -22,7 +22,7 @@ OLLAMA_URL = "http://localhost:11434"
 
 class ChatRequest(BaseModel):
     message : str
-    model: str = "llama3.2:1b"
+    model: str = "qwen2.5:0.5b"
 
 
 @app.post("/api/chat")
